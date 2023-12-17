@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  a{
+    color: red;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  .logo {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+  .circle {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background: #e84848;
+    border-radius: 50%;
+  }
+
+  .circle1 {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #e84848;
+    border-radius: 50%;
+  }
+  .head {
+    font-size: 40px;
+  }
+  .lin{
+      height: 8px;
+      border: 1px solid black;
+  }
+  #inputData{
+      padding-inline: 2rem;
+      height: 40px;
+      border: none; 
+      opacity: 0.5;
+  }
+  .searchBar{
+      margin-top: 3rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .category{
+    text-align: center;
+    padding: 20px 0;
+  }
+  #searchBtn{
+      height: 40px;
+      width: 40px;
+      background: #e84848;
+      color: white;
+      border: none;
+      margin-left: 13.91rem;
+      cursor: pointer;
+  }
+  .searchBar i{
+      font-size: medium;
+      margin-left: -14.8rem;
+  }
+  .cardData{
+     max-width: 1100px;
+     margin:  10px auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+  }
+
+  .top-news{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+  }
+  .card{
+      width: 300px;
+      background-color:rgba(235, 230, 230, 0.604);
+      padding: 11px;
+      border-radius: 10px;
+      margin: 20px;
+      cursor: pointer;
+      transition: all ease-in 0.3s;
+  }
+
+  .card:hover{
+    box-shadow: 2px 1px 8px rgba(239, 235, 235, 0.788);
+  }
+  .card img {
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+  }
+  .card h2{
+      font-size: 16px;
+      margin-block: 10px;
+  }
+  .card span{
+    display: block;
+    margin-block: 10px;
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+
+  
+  @media only screen and (max-width:400px){
+    .head {
+        font-size: 30px;
+      }
+  }
+  
+  @media only screen and (max-width:1024px){ 
+    .card{
+          width: 400px;
+      }
+  }
+
